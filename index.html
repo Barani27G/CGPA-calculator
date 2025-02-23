@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adengappa CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Adengappa CGPA Calculator</h2>
+    
+    <table id="cgpaTable">
+        <tr>
+            <th>Course #</th>
+            <th>Credits</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="number" class="credits" min="1"></td>
+            <td>
+                <select class="grade">
+                    <option value="10">A+</option>
+                    <option value="9">A</option>
+                    <option value="8">B+</option>
+                    <option value="7">B</option>
+                    <option value="6">C</option>
+                    <option value="5">D</option>
+                    <option value="0">F</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    
+    <button onclick="addRow()">Add Course</button>
+    <button onclick="calculateCGPA()">Calculate CGPA</button>
+
+    <h3 id="result"></h3>
+
+    <script src="script.js"></script>  <!-- JavaScript file linked here -->
+
+</body>
+</html>

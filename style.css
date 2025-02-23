@@ -1,0 +1,69 @@
+/* Apply full-page CSK background image */
+body {
+    background-image: url('csk-bg.jpg'); /* Replace with your CSK image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Style the CGPA calculator heading */
+h2 {
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+}
+
+/* Table styling */
+table {
+    width: 50%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+th, td {
+    padding: 10px;
+    color: yellow;
+}
+
+/* Input and Select Styling */
+input, select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background: yellow;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: darkblue;
+    color: yellow;
+}
+
+/* CGPA result display */
+h3 {
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+}
